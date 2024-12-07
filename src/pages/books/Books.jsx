@@ -1,6 +1,6 @@
 import useAxiosPublic from "../../hooks/useAxiosPublic";
 import { useQuery } from "@tanstack/react-query";
-import BookCard from "../../components/bookCard";
+import BookCard from "../../components/BookCard";
 import { useEffect, useState } from "react";
 import { ScrollRestoration } from "react-router-dom";
 
