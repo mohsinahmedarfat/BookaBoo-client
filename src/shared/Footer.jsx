@@ -2,7 +2,11 @@ const Footer = () => {
   return (
     <footer className="footer bg-[#D6EFD8] text-black items-center py-1 px-4 justify-between ">
       <aside className="grid-flow-col items-center">
-        <img src="/public/BookaBoo-v2.png" className="w-16 h-12" alt="" />
+        <img
+          src="https://i.ibb.co.com/VLV4TZf/Booka-Boo-v2.png"
+          className="w-16 h-12"
+          alt=""
+        />
       </aside>
 
       <p>Copyright © {new Date().getFullYear()} - All right reserved</p>

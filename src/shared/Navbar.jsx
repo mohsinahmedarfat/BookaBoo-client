@@ -56,7 +56,11 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/">
-          <img src="/public/BookaBoo-v2.png" className="h-12 w-16" alt="" />
+          <img
+            src="https://i.ibb.co.com/VLV4TZf/Booka-Boo-v2.png"
+            className="h-12 w-16"
+            alt=""
+          />
         </Link>
       </div>
       <div className="navbar-end">
