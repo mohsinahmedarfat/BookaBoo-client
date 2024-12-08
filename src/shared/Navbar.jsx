@@ -67,45 +67,6 @@ const Navbar = () => {
         <div className="hidden lg:flex">
           <ul className="menu-horizontal px-1">{navItems}</ul>
         </div>
-
-        {/* {user ? (
-          <div>
-            <div className="dropdown dropdown-end">
-              <div
-                tabIndex={0}
-                role="button"
-                className="btn btn-ghost btn-circle avatar"
-              >
-                <div className="w-10 rounded-full">
-                  <img
-                    referrerPolicy="no-referrer"
-                    alt="Profile Picture"
-                    src={user?.photoURL}
-                  />
-                </div>
-              </div>
-              <ul
-                tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
-              >
-                <li className="text-center mb-4 font-semibold">
-                  {user?.displayName}
-                </li>
-                <li>
-                  <button onClick={logout} className="btn btn-sm bg-[#B0D9B1]">
-                    Sign out
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        ) : (
-          <div>
-            <Link to="/login">
-              <button className="btn btn-sm bg-[#B0D9B1]">Sign in</button>
-            </Link>
-          </div>
-        )} */}
       </div>
     </div>
   );
