@@ -70,7 +70,13 @@ Bookaboo is a web application where users can explore a collection of books, sea
 4. Start the development server:
 
    ```bash
-   npm run dev
+   npm run start
    ```
 
 5. Open your browser and go to `http://localhost:5000` to access the application.
+
+6. Add `.env` file and add Environment variables:
+   ```bash
+   DB_USER=mohsinarfat53
+   DB_PASS=WI4bWtYaBaMBHQt4
+   ```
